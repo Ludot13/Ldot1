@@ -1,0 +1,21 @@
+<!-- profile.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Профиль пользователя</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Профиль пользователя</h1>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Имя пользователя: {{ current_user.username }}</h5>
+                <p class="card-text">Email: {{ current_user.email }}</p>
+                <p class="card-text">Другая информация о пользователе...</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
